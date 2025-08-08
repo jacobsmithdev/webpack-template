@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "format": "prettier . --check",
     "lint": "eslint .",
     "dev": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
